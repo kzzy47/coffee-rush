@@ -55,7 +55,17 @@ export default function Footer() {
       <div className="border-t border-sand/15">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-6 text-xs text-sand/50 md:flex-row md:items-center md:justify-between md:px-10">
           <p>&copy; {new Date().getFullYear()} Coffee Rush. All rights reserved.</p>
-          <p>Family owned since 1994 &middot; Florida grown</p>
+          <p>
+            Family owned since 1994 &middot; Florida grown &middot; Built by{" "}
+            <a
+              href="https://vaylostudios.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cream underline underline-offset-4 hover:text-sand"
+            >
+              Vaylo Studios
+            </a>
+          </p>
         </div>
       </div>
     </footer>
